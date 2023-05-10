@@ -10,4 +10,5 @@ git branch -M main
 git pull
 -agregar modificaciones
 git add .
-it commit -m "mensaje"
+git commit -m "mensaje"
+git push
