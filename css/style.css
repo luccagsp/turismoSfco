@@ -20,15 +20,34 @@ body{
     list-style: none;
     float: left;
     padding: 20px;
+    color: #1aa5d4;
+}
+.flecha-mapacont{
+    margin-left: 50%;
+    width: 55px;
+    height: auto;
+    border: black;
+}
+.header-li{
+    transition: all 300ms;
+    
+}
+.header-li:hover{
+    transform: scale(1.15);
+    text-decoration: underline #1aa5d4;
+    
 }
 .containerImg{
     padding: 5px;
-    
+
 }
 
 
 /*Header Terminado*/
-
+.ciudadContainer{
+    width: 100%;
+    height: 80vh;
+}
 .navegacionA{
     color: #1aa5d4;
     text-decoration: none;
@@ -63,6 +82,12 @@ body{
     padding-right: 4em;
     padding-bottom: 1em;
 }
+
+.lista-links li a img{
+    margin: -5px;
+    margin-right: 5px;
+}
+
 .sanfcoP{
     text-align: center;
     margin: 20px;
