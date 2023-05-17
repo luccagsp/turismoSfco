@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Francisco Turismo
-    </title>
+    <title>San Francisco Turismo</title>
     <link rel="shortcut icon" href="img/avion.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleSectMapa.css">
     <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -44,18 +44,27 @@
     </section>
 
     <section class="mapa">
+        <style>
+            .mapa{
+                background-color: #13334A;
+            }
+        </style>
         <div class="mapaContainer">
             <div class="container-arrow">
                 <img src="img/down_arrow.svg" alt="Flecha hacia abajo" class="flecha-mapacont">
             </div>
             <div class="imgMapa">
                 <h1><img src="img/icono_mapa.svg" alt="mapa icono"> Mapa de la ciudad</h1>
-                <img src="img/sanFCOMapa.jpg" alt="mapa ciudad">
+                <div class="divisorHorizontal"></div>
+                <div class="mapaSanFco-Container">
+                    <img src="img/sanFCOMapa.jpg" alt="mapa ciudad">
+                    <ul type="circle">
+                        <li><p>Como se puede observar San Francisco limita directamente con la ciudad Frontera, ambas ciudades pertenecen a una provincia distinta (San Franisco pertenece a Cordoba y Frontera pertenece a Santa Fe) y se dividen por la avenida: Av. Brig. Bustos</p></li>
+                        <li><p>Como nombramos en <a href="#">sobre la ciudad</a>, aqui se puede observar los grandes espacios verdes que contiene esta y la distribucion de las parcelas</p></li>
+                    </ul>
+                </div>
                 <h3>Observaciones del mapa</h2>
-                <ul type="circle">
-                    <li><p>Como se puede observar San Francisco limita directamente con la ciudad Frontera, ambas ciudades pertenecen a una provincia distinta (San Franisco pertenece a Cordoba y Frontera pertenece a Santa Fe) y se dividen por la avenida: Av. Brig. Bustos</p></li>
-                    <li><p>Como nombramos en <a href="#">sobre la ciudad</a>, aqui se puede observar los grandes espacios verdes que contiene esta y la distribucion de las parcelas</p></li>
-                </ul>
+
             </div>
         </div>
     </section>

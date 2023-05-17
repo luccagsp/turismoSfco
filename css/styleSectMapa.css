@@ -1,0 +1,33 @@
+.divisorHorizontal{
+    width: 10%;
+    height: 4px;
+    background-color: rgba(0, 171, 255, 1);
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 60px;
+    
+}
+.imgMapa h1{
+    padding: 0;
+    color: #e6edf3;
+    margin: 0px;
+    margin-left: 15px;
+}
+.mapaSanFco-Container{
+    background-color: #002138;
+    display: flex;
+    justify-content: center;
+}
+.mapaSanFco-Container img{
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    margin-right: 40%;
+}
+.mapaSanFco-Container ul{
+    list-stylecolor:  ;
+}
+.mapaSanFco-Container ul li p{
+    color: #e6edf3;
+}
