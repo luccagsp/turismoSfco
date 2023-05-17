@@ -26,7 +26,8 @@
     margin-right: 40%;
 }
 .mapaSanFco-Container ul{
-    list-stylecolor:  ;
+    color: #e6edf3;
+    list-style-type: disc;
 }
 .mapaSanFco-Container ul li p{
     color: #e6edf3;
