@@ -1,0 +1,35 @@
+.alojamientosContainer {
+    background-color: #003053;
+}
+
+.alojamientosContainer h1{
+    padding: 0;
+    color: #e6edf3;
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 50px;
+}
+
+.alojamientosContainer iframe {
+    margin: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+.iframeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    background-color: #003e6b;
+}
+.iframeContainer p {
+    font-size: 1.4em;
+    padding: 0;
+    color: #e6edf3;
+    margin: 0px;
+    padding: 2px;
+    padding-bottom: 1em;
+    font-weight: 500;
+}
+.iframeContainer p a {
+    color: rgba(0, 171, 255, 1);
+}

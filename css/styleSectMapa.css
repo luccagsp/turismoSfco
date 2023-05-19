@@ -36,3 +36,6 @@
 .mapaSanFco-Container ul li p{
     color: #e6edf3;
 }
+.mapaSanFco-Container ul a{
+    color: rgba(0, 171, 255, 1);
+}
