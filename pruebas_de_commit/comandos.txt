@@ -1,0 +1,11 @@
+git status: para ver el estado del repositorio
+
+git add *lo que se agrego*: para actualizarte un archivo especifico
+
+git add . : para actualizarte todos los archivos
+
+git commit -m "mensaje": para enviar un mensaje al repositorio
+
+git pull: para traer de tu computadora al repositorio
+
+git push: lo contrario. para traer del repositorio a tu computadora
