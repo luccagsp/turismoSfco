@@ -1,0 +1,38 @@
+.footer {
+    background-color: #0a141d;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    color: #e6edf3;
+}
+.footer a{
+    text-decoration: none;
+    color: rgba(0, 171, 255, 1);
+}
+
+.imageFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.8em;
+}
+.imageFooter img{
+    width: 60%;
+    margin: auto;
+}
+.creditosFooter{
+
+}
+.redesDiv{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.redesFooter a{
+    font-size: 2em;
+    transition: .3s ease all;
+}
+.redesFooter a:hover{
+    color: #e6edf3;
+}
